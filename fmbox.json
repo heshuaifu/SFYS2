@@ -1674,7 +1674,7 @@
     {
       "name": "live",
       "type": 0,
-      "url": "https://yyrj.fun/tv",
+      "url": "https://ghp.ci/https://raw.githubusercontent.com/heshuaifu/SFYS/refs/heads/main/live.txt",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
