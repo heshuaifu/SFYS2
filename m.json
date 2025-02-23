@@ -5,8 +5,8 @@
 "logo":"https://alicliimg.clewm.net/342/790/68790342/17369906896774bd3d1d8ba1877dea5d967a137aa23d91736990672.gif",
 "spider":"./jar.php?id=ou&ou=公众号欧歌app;md5;f81273b48e9814909eea0cc5d7d68a90",
 "warningText":"tv提示:
-📢接口软件永远免费 
-📢长期维护切勿贩卖",
+📢若直点播不能播放或不流畅请重置软件重新获取接口 
+📢若重置后仍不好用请联系何帅夫待更新之后重置即可",
 "lives":[
 
 {"name":"tv","type":0,"url":"https://tv.nxog.top/m//tv/","epg":"http://cdn.1678520.xyz/epg/?ch={name}&date={date}","logo":"https://live.fanmingming.cn/tv/{name}.png","playerType":2,"timeout":10},
@@ -15,14 +15,10 @@
 {"name": "Live直播","type": 0,"url": "http://127.0.0.1:9978/proxy?do=live&u=Gather","playerType": 2,"timeout": 10}
 ],
 "sites": [
-{"key":"豆瓣2","name":"📢tv","type":3,"api":"csp_Douban","searchable":0},
-{"key":"豆瓣1","name":"📢tv公告❤更新:2/20❤","type":3,"api":"csp_Notice","searchable":0,"changeable": 0,"jar":"https://tv.nxog.top/m/jar.php?id=xx&ou=公众号欧歌app;md5;ed61f5e30960fa9d7c4ef6cf81a3f01b","ext": "https://nxog.top/%E5%85%AC%E4%BC%97%E5%8F%B7%E6%AC%A7%E6%AD%8CAPP/ts/?b=tv"},
+{"key":"豆瓣2","name":"📢帅夫影视","type":3,"api":"csp_Douban","searchable":0},
 
 
-{"key":"csp_woog","name":"🐲欧歌┃4K弹幕","type":3,"api":"csp_woog","filterable":1,"jar":"https://tv.nxog.top/m/jar.php?id=og&ou=公众号欧歌app;md5;d13000ce089d8dca65cf9eaa99a8f0fe","ext":{"site_urls":["https://woog.xn--dkw.xn--6qq986b3xl"],"url_key":"woog"}},
-{"key":"csp_oguc","name":"🐲欧歌┃u汐4K","type":3,"api":"csp_woog","filterable":1,"jar":"https://tv.nxog.top/m/jar.php?id=og&ou=公众号欧歌app;md5;d13000ce089d8dca65cf9eaa99a8f0fe","ext":{"site_urls":["https://oguc.xn--dkw.xn--6qq986b3xl"],"url_key":"oguc"}},
-{"key":"csp_woog2","name":"🐲欧歌┃夸快4K","type":3,"api":"csp_woog","changeable":0,"searchable":1,"filterable":1,"jar":"https://tv.nxog.top/m/jar.php?id=a3&ou=公众号欧歌app;md5;468e5883e1e500c3003b24ee8b6d0dcd","ext":{"site_urls":["https://ogkk.nxog.eu.org","https://ogkk.xn--dkw.xn--6qq986b3xl"]}},
-{"key":"csp_欧歌G","name":"🐲欧歌4K┃配置","type":3,"api":"csp_Config","searchable":0,"quickSearch": 0,"filterable": 1,"jar":"https://tv.nxog.top/m/jar.php?id=cf&ou=公众号欧歌app;md5;2d68907e16b4a9809ca25071c739245c"},
+
 
 {"key":"配置中心","name":"❤通用┃配置","type":3,"api":"csp_Config","searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597}},
 {"key":"荐片","name":"💡荐片｜影视","type":3,"api":"csp_Jianpian","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
@@ -32,7 +28,6 @@
 {"key":"瓜子","name":"💡瓜子｜影视","type":3,"api":"csp_Gz360","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"骚火","name":"💡骚火｜影视","type":3,"api":"csp_SaoHuo","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"雨滴","name":"💡雨滴｜影视","type":3,"api":"csp_Xdai","playerType":1,"ext":"jaHR0cDovL2M4dzJvdjd1NXdnMnoxbzhwMjFjLmFsaXl1bmNzLmNsaWNrfGs5bzNwMmM4YjdtM3owbzh8azlvM3AyYzhiN20zejBvOHwxMDA="},
-{"key":"蝴蝶","name":"💡蝴蝶｜影视","type":3,"api":"csp_Hudie","playerType":2,"ext":"eaHR0cHM6Ly9kLmRjbW92aWUudG9w"},
 {"key":"耐看","name":"💡耐看｜影视","type":3,"api":"csp_WebNK","searchable":1,"quickSearch":1,"filterable":1,"ext":"w7TClcONw6LDrsKYwoXCosKcwpvCrcKcw6HDrsKnwqDCo2rCqMKiw7HDsMOxYcKewpvClMOvw5fCqMOmw59VXFLCpMOiw6PCnMKzwpzCjuWGtemEmOaPleWRnMKf5Yem5L6Q5ZGxbeW+oeintui1tOa8ieetjMOXwpvDtw=="},
 {"key":"真心","name":"💡真心｜影视","type":3,"api":"csp_WebGZ","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"1905","name":"💡1905｜影视","type":3,"api":"csp_Web1905","searchable":1,"quickSearch":0,"filterable":0},
@@ -53,7 +48,6 @@
 {"key":"优质","name":"💡优质｜影视","type":3,"api":"csp_Xdai","playerType":1,"ext":"jaHR0cDovL2R5eXp0dmFwcGFwaWdvb2RneC42OC5neS9jaXdrMjh2dTM4aW84L2FwaXVybC50eHR8ZHl5enR2YXBpYXBweXlkc3xkeXl6dHZhcGlhcHB5eWRzfDEwMA=="},
 {"key":"木叶","name":"💡木叶｜影视","type":3,"api":"csp_Xdai","playerType":2,"ext":"saHR0cDovL3d3dy56amMuYXBwfGFiNGU5YTQyMTY3NWYxNGJ8YWI0ZTlhNDIxNjc1ZjE0Ynw0NDI="},
 {"key":"来看影视","name":"💡来看｜影视","type":3,"api":"csp_Lkdy","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"农民影视","name":"💡农民｜影视","type":3,"api":"csp_Wwys","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://wwgz.cn"},
 {"key":"巧技","name":"💡巧巧｜影视","type":3,"api":"csp_qiao2","playerType":2,"ext":"https://alicliimg.clewm.net/342/790/68790342/1739704196981ee4d1db22ed5d0fe67dc73c5402d65321739704163.jpg"},
 
 
@@ -61,7 +55,6 @@
 
 {"key":"csp_XYQHiker_农民影视","name":"🧿农民｜影视","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/nmys.json"}, 
 
-{"key":"嫖嫖嫖","name":"🧿嫖嫖┃影视","type":3,"api":"csp_XBPQ","ext":{"主页url":"https://www.gs4x7nq4.com/","播放请求头":"User-Agent$Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/128.0.0.0Safari/537.36","简介":"⚠️欧歌特别提醒您⚠️请勿相信影片中的广告，以免上当受骗❗️+</label>&&</div>","嗅探词":".mp4#.m3u8#.flv#.m3u8?#.mp4?","影片类型":"tags\">&&director\">","影片状态":"bottom\">&&</div>","二次截取":"videoList\":\\[&&\\]","数组":"{&&}[不包含:伦理剧]","图片":"https+://ywxohs.com+obs.gduamoe.com&&\",","标题":"vodName\":\"&&\"","副标题":"vodRemarks\":\"&&\"","链接":"https://www.gs4x7nq4.com/detail/+vodId\":&&,","导演":"导演:</div>&&主演","主演":"主演:</div>&&别名","线路标题":"xxx","播放数组":"listitem\">&&info\">","播放列表":"<a&&</a>","倒序":"否","搜索url":"https://www.gs4x7nq4.com/vod/search/{wd}","搜索副标题":"class=\"boottom\"*<div>&&</div","分类":"电影$1#电视剧$2#综艺$3#动漫$4","分类url":"https://www.gs4x7nq4.com/vod/show/id/{cateId}/class/{class}/year/{year}/area/{area}/page/{catePg}"}},
 
 {"key":"白嫖者","name":"🧿白嫖┃影视","type":3,"api":"csp_XBPQ","ext":{"分类url":"https://www.qyzf88.com/qyvodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html","分类":"电影$1#电视剧$2#动漫$4#综艺$3","副标题":"class=\"pic-texttext-right\"&&</span>","简介":"️欧歌特别提醒您⚠️请勿相信影片中的广告，以免上当受骗❗+剧情介绍：&&</p>"}},
 
@@ -82,29 +75,8 @@
 {"key":"热播弹幕","name":"💘热播｜弹幕","type":3,"api":"csp_TianTian","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":true,"site":"aHR0cDovL3YucmJvdHYuY24="}},
 {"key":"浪酷弹幕","name":"💘浪酷｜弹幕","type":3,"api":"csp_TianTian","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":true,"site":"aHR0cDovL3YubGt1eXMuY24="}},
 {"key":"文才弹幕","name":"💘文才┃弹幕","type":3,"api":"csp_Jpys","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":true}},
-{"key":"三六零弹幕","name":"💘三六┃弹幕","type":3,"api":"csp_Sp360","searchable":1,"filterable":1,"changeable":1,"ext":{"danmu":true}},
 {"key":"机器人弹幕","name":"💘机器｜弹幕","type":3,"api":"csp_Ikanbot","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":true}},
 {"key":"荐片弹幕","name":"💘荐片┃弹幕","type":3,"api":"csp_Jianpian","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":true}},
-
-
-
-
-{"key":"立播弹幕","name":"❤立播┃弹幕","type":3,"api":"csp_Libvio","searchable":1,"filterable":1,"changeable":1,"ext":{"token":"http://127.0.0.1:9978/file/TV/token.txt","cookie":"http://127.0.0.1:9978/file/TV/.quark","uc_cookie":"http://127.0.0.1:9978/file/TV/.uc","danmu":true}},
-{"key":"玩弹幕1","name":"❤玩哥┃弹幕","type":3,"api":"csp_Wobg","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":{"token":"http://127.0.0.1:9978/file/TV/token.txt","cookie":"http://127.0.0.1:9978/file/TV/.quark","uc_cookie":"http://127.0.0.1:9978/file/TV/.uc","site":"https://woog.nxog.eu.org","danmu": true}},
-{"key":"夸克玩弹幕1","name":"❤玩偶┃弹幕","type":3,"api":"csp_Wobg","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":{"token":"http://127.0.0.1:9978/file/TV/token.txt","cookie":"http://127.0.0.1:9978/file/TV/.quark","uc_cookie":"http://127.0.0.1:9978/file/TV/.uc","site": "https://wooguc.nxog.eu.org","danmu": true}},
-{"key":"夸克玩弹幕2","name":"❤玩姐┃弹幕","type":3,"api":"csp_Wobg","quickSearch":1,"changeable":1,"filterable":1,"ext":{"token":"http://127.0.0.1:9978/file/TV/token.txt","cookie":"http://127.0.0.1:9978/file/TV/.quark","uc_cookie":"http://127.0.0.1:9978/file/TV/.uc","site":"https://tv.yydsys.top","danmu":true}},
-{"key":"夸克玩弹幕3","name":"❤玩妹┃弹幕","type":3,"api":"csp_Wobg","quickSearch":1,"changeable":1,"filterable":1,"ext":{"token":"http://127.0.0.1:9978/file/TV/token.txt","cookie":"http://127.0.0.1:9978/file/TV/.quark","uc_cookie":"http://127.0.0.1:9978/file/TV/.uc","site":"https://duopan.fun","danmu":true}},
-{"key":"夸克玩弹幕4","name":"❤玩弟┃弹幕","type":3,"api":"csp_Wobg","quickSearch":1,"changeable":1,"filterable":1,"ext":{"token":"http://127.0.0.1:9978/file/TV/token.txt","cookie":"http://127.0.0.1:9978/file/TV/.quark","uc_cookie":"http://127.0.0.1:9978/file/TV/.uc","site":"https://www.milvdou.fun","danmu":true}},
-
-{"key":"搜索弹幕","name":"❤搜索｜弹幕","type":3,"api":"csp_PanSearch","searchable":1,"filterable":0,"changeable":1,"ext":{"token":"http://127.0.0.1:9978/file/TVbox/token.txt","danmu":true}},
-{"key":"易搜弹幕","name":"❤易搜｜弹幕","type":3,"api":"csp_YiSo","searchable":1,"filterable":0,"changeable":1,"ext":{"token":"http://127.0.0.1:9978/file/TVbox/token.txt","danmu":true,"cookie":"satoken=0eedba28-be8a-4f01-81af-2d8d44808ecf"}},
-{"key":"夸搜弹幕","name":"❤夸搜｜弹幕","type":3,"api":"csp_Qkso","searchable":1,"filterable":1,"changeable":0,"ext":{"cookie":"http://127.0.0.1:9978/file/TVbox/quark.txt","danmu":true}},
-{"key":"夸克趣盘搜弹幕","name":"❤盘搜｜弹幕","type":3,"api":"csp_QuPanSou","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":{"cookie":"http://127.0.0.1:9978/file/TVbox/quark.txt","danmu":true}},
-
-{"key":"我的阿里","name":"❤我的┃阿里","type":3,"api":"csp_MyAli","searchable":0,"quickSearch":0,"filterable":0,"ext":{"token":"http://127.0.0.1:9978/file/TVbox/token.txt"},"style":{"type":"list"}},
-{"key":"阿里合集","name":"❤阿里┃合集","type":3,"api":"csp_AliShare","searchable":1,"changeable":0,"filterable":0,"ext":{"token":"http://127.0.0.1:9978/file/TVbox/token.txt","share":"./lib/alishare.json"},"style":{"type":"list"}},
-{"key":"我的夸克","name":"❤我的｜夸克","type":3,"api":"csp_MyQuark","searchable":0,"quickSearch":0,"filterable":0,"indexs":0,"ext":{"cookie":"http://127.0.0.1:9978/file/TVbox/quark.txt"},"style":{"type":"list"}},
-{"key":"我的UC","name":"❤我的｜UC","type":3,"api":"csp_MyUc","searchable":0,"quickSearch":0,"filterable":0,"indexs":0,"ext":{"uc_cookie":"http://127.0.0.1:9978/file/TVbox/uc.txt"},"style":{"type":"list"}},
 
 
 
