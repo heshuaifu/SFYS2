@@ -8,7 +8,7 @@
 📢若直点播不能播放或不流畅更换备用接口或重置软件 
 📢若重置后仍不好用请联系何帅夫待更新之后重置即可",
 "lives":[
-{"name":"tv","type":0,"url":"https://tv.nxog.top/m//tv/","epg":"http://cdn.1678520.xyz/epg/?ch={name}&date={date}","logo":"https://live.fanmingming.cn/tv/{name}.png","playerType":2,"timeout":10},
+{"name": "live","type": 0,"url": "https://ghp.ci/https://raw.githubusercontent.com/heshuaifu/SFYS/refs/heads/main/live.txt","epg": "http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}
 {"name":"胖羊直播","type":3,"api":"csp_Feiyang","url":"https://tv.nxog.top/m//tv/胖羊.php","timeout":10,"ua":"okhttp/3.15","catchup":{"type":"append","source":"?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"}},
 {"name":"AI直播","type":0,"url":"./lib/user_result.txt","epg":"http://cdn.1678520.xyz/epg/?ch={name}&date={date}","logo":"https://live.fanmingming.cn/tv/{name}.png","playerType":2,"timeout":10},
 {"name": "Live直播","type": 0,"url": "http://127.0.0.1:9978/proxy?do=live&u=Gather","playerType": 2,"timeout": 10}
