@@ -131,8 +131,15 @@
         "分类": "电影$1#电视剧$2#动漫$4#综艺$3"
       }
     },
-      
-   
+
+    {
+      "key": "賤賤",
+      "name": "💥賤片┃p2p💥",
+      "type": 3,
+      "api": "csp_WexJianpianGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
    
     {
       "key": "梨园",
