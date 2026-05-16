@@ -30,66 +30,7 @@
         "分类": "电影$1#电视剧$2#动漫$4#综艺$3"
       }
     },
-    {
-      "key": "来看影视",
-      "name": "来看｜影视",
-      "type": 3,
-      "api": "csp_Lkdy",
-      "jar": "https://lz.qaiu.top/d/le/4BG46tPs5pNrW9Z5A",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "FourKTV",
-      "name": "复刻｜影视",
-      "type": 3,
-      "api": "csp_FourKTV",
-      "jar": "https://lz.qaiu.top/d/lz/iZZiO2rkmy5g",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "低端影视",
-      "name": "低端｜影视",
-      "type": 3,
-      "api": "csp_Ddys",
-      "jar": "https://lz.qaiu.top/d/lz/i5MYu2p7cxoj",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "蝴蝶",
-      "name": "蝴蝶｜影视",
-      "type": 3,
-      "api": "csp_Hudie",
-      "jar": "https://lz.qaiu.top/d/lz/i5MYu2p7cxoj",
-      "playerType": 2,
-      "ext": "eaHR0cHM6Ly9kLmRjbW92aWUudG9w"
-    },
-    {
-      "key": "drpyS_短剧库[短]",
-      "name": "剧库┃短剧",
-      "type": 4,
-      "api": "https://zhxy.eu.org/api/短剧库[短]",
-      "searchable": 2,
-      "filterable": 0,
-      "quickSearch": 0,
-      "ext": ""
-    },
-    {
-      "key": "drpyS_星芽短剧[短]",
-      "name": "星芽┃短剧",
-      "type": 4,
-      "api": "https://zhxy.eu.org/api/星芽短剧[短]",
-      "searchable": 2,
-      "filterable": 1,
-      "quickSearch": 1,
-      "ext": ""
-    },
+   
     {
       "key": "panSet",
       "name": "网盘｜设置",
