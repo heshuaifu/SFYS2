@@ -23,78 +23,12 @@
   "sites": [
     {
       "key": "drpy_js_豆瓣",
-      "name": "💥最新软件接口❤Link3.cc/uuccc❤💥",
+      "name": "💥帅夫影视💥",
       "type": 3,
       "api": "csp_Douban",
       "ext": "./lib/douban.json"
     },
-    {
-      "key": "JianSou",
-      "name": "💖┃简搜┃4K💖",
-      "type": 3,
-      "api": "csp_JianSou",
-      "searchable": 1,
-      "filterable": 0,
-      "ext": {
-        "site": "http://118.89.172.248:8000",
-        "type": 0,
-        "name": " 简搜"
-      }
-    },
-    {
-      "key": "ZhiZhenPanCms",
-      "name": "💖┃至臻┃4K💖",
-      "type": 3,
-      "api": "csp_PanCms",
-      "searchable": 1,
-      "filterable": 1,
-      "ext": "{\"site\":[\"http://118.89.172.248:22776\"],\"name\":\"网盘CMS\"}"
-    },
-    {
-      "key": "MuouPanCms",
-      "name": "💖┃木偶┃4K💖",
-      "type": 3,
-      "api": "csp_PanCms",
-      "searchable": 1,
-      "filterable": 1,
-      "ext": "{\"site\":[\"https://www.muoua.top\",\"https://666.666291.xyz\",\"https://333.333291.xyz\",\"https://www.muou.asia\"],\"name\":\"网盘CMS\"}"
-    },
-    {
-      "key": "DuoPanCms",
-      "name": "💖┃多多┃4K💖",
-      "type": 3,
-      "api": "csp_PanCms",
-      "searchable": 1,
-      "filterable": 1,
-      "ext": "{\"site\":[\"https://tv.yydsys.top\",\"https://tv.yydsys.cc\",\"https://tv.214521.xyz\"],\"name\":\"网盘CMS\"}"
-    },
-    {
-      "key": "KuaiYPanCms",
-      "name": "💖┃快映┃4K💖",
-      "type": 3,
-      "api": "csp_PanCms",
-      "searchable": 1,
-      "filterable": 1,
-      "ext": "{\"site\":[\"http://38.76.197.172:12521\"],\"name\":\"网盘CMS\"}"
-    },
-    {
-      "key": "HuBanYPanCms",
-      "name": "💖┃虎斑┃4K💖",
-      "type": 3,
-      "api": "csp_PanCms",
-      "searchable": 1,
-      "filterable": 1,
-      "ext": "{\"site\":[\"http://38.76.197.172:16969\"],\"name\":\"网盘CMS\"}"
-    },
-    {
-      "key": "Star2",
-      "name": "💖┃剧透┃4K💖",
-      "type": 3,
-      "api": "csp_Star2",
-      "searchable": 1,
-      "filterable": 0,
-      "ext": "{\"site\":[\"https://1.star2.cn\"],\"name\":\"剧透社\"}"
-    },
+    
     {
       "key": "Gz360",
       "name": "🍂┃瓜子┃秒播",
